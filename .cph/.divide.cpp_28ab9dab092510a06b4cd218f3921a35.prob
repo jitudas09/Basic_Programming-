@@ -1,0 +1,1 @@
+{"name":"Local: divide","url":"c:\\Users\\HP\\Desktop\\VS\\divide.cpp","tests":[{"id":1777439410318,"input":"4\n4 1\n1010\n4 3\n1001\n4 1\n1111\n4 2\n1110\n\n","output":"Yes\nYes\nNo\nNo\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\VS\\divide.cpp","group":"local","local":true}
