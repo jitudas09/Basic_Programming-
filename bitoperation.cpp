@@ -50,15 +50,15 @@ bool check_power_of_2(int x ){
 }
 
 int main (){
-    // cout << cheek_kth_bit(11,2) << endl ;
-     print_on_bit(11);
-    // cout << count_on_bits( 11) << endl ; 
-    // cout << is_even(11) << endl ;
-    // cout << set_kth_bit_on(11,2) << endl ;
-    // cout << set_kth_bit_of(11,1) << endl ; 
-    // cout << toggle_kth_bit(11,2) << endl ; // in xor if inputs are same then false, otherwise true ;
-    // cout <<  check_power_of_2(8) << endl ; // result true ....1,2,4,8,1,32.....
-    // cout <<  check_power_of_2(12) << endl ; // result is false 
+    cout << cheek_kth_bit(11,2) << endl ;
+    print_on_bit(11);
+    cout << count_on_bits( 11) << endl ; 
+    cout << is_even(11) << endl ;
+    cout << set_kth_bit_on(11,2) << endl ;
+    cout << set_kth_bit_of(11,1) << endl ; 
+    cout << toggle_kth_bit(11,2) << endl ; // in xor if inputs are same then false, otherwise true ;
+    cout <<  check_power_of_2(8) << endl ; // result true ....1,2,4,8,1,32.....
+    cout <<  check_power_of_2(12) << endl ; // result is false 
     return 0 ;
 }
 

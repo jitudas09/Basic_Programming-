@@ -52,23 +52,23 @@ using namespace std ;
 //     return 0 ;
 // }
 
-// #include<bits/stdc++.h>
-// using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 
-// int main() {
-//     string s;
-//     cin >> s;
-//     int n = s.size();
-//     for(int l = 0; l < n; ++l){
-//         for(int r = l; r < n; ++r){
-//             for(int i = l; i <= r; ++i){
-//                 cout << s[i] << ' ';
-//             }
-//             cout << endl;
-//         }
-//     }
-//     return 0;
-// }
+int main() {
+    string s;
+    cin >> s;
+    int n = s.size();
+    for(int l = 0; l < n; ++l){
+        for(int r = l; r < n; ++r){
+            for(int i = l; i <= r; ++i){
+                cout << s[i] << ' ';
+            }
+            cout << endl;
+        }
+    }
+    return 0;
+}
 
 
 //                          find better chase 
@@ -83,7 +83,7 @@ int main (){
         cin >> a[i] ;
     }
     // int max_subarray_sum= -10e18 ; 
-    int max_subarray_sum= INT_MIN; 
+    int max_subarray_sum= INT_MIN; // int_min is the minimum int value 
 
     for ( int l = 0 ; l<n ; l++){
         for(int r= l ; r<n ; r++){
